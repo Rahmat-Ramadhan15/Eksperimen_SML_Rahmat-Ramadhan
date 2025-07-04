@@ -21,7 +21,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install pandas scikit-learn
+          pip install pandas numpy scikit-learn
 
       - name: Run Automate Script
         run: |
